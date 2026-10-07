@@ -1,0 +1,7 @@
+Member,Model,Type,Main Result,Accuracy,Precision (macro),Recall (macro),F1 (macro)
+Nirushiya A.,Support Vector Machine,Classification,96.46% test accuracy,0.9646,0.9654,0.9645,0.9648
+Muhunthan R.,Multi-Layer Perceptron,Deep Learning (Classification),94.67% test accuracy,0.9467,0.9476,0.9457,0.9464
+Thrishodaran V.,Decision Tree,Classification,86.05% test accuracy,0.8605,0.8615,0.8606,0.8607
+Wijayagunasekara L.A.V.D.S.,Logistic Regression,Classification,77.32% test accuracy,0.7732,0.7773,0.7720,0.7730
+Almeida K.K.O.,K-Means,Clustering,"k = 26, ARI = 0.151, NMI = 0.364",N/A,N/A,N/A,N/A
+Danishiyan G.J.,PCA (13 components) → KNN,Dimensionality Reduction + Classification (KNN),"21 -> 13 components, 95.18% variance retained, 90.33% downstream KNN accuracy (vs 91.78% on all features)",0.9033,0.9064,0.9028,0.9037

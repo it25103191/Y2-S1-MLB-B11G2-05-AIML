@@ -1,0 +1,15 @@
+{
+  "member": "Nirushiya A. (IT25100513)",
+  "model_family": "Support Vector Machine (Classification)",
+  "accuracy": 0.9646491697911087,
+  "precision_macro": 0.9654030213961016,
+  "recall_macro": 0.964488370689546,
+  "f1_macro": 0.9648156516273295,
+  "best_params": {
+    "C": 10,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "cv_best_score": 0.9547341636534084,
+  "baseline_accuracy": 0.9295661489019817
+}

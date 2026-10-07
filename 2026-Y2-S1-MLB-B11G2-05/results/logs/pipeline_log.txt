@@ -1,0 +1,31 @@
+[Stage 0] Raw data loaded: shape = (20000, 17)
+[Stage 1] Missing values check: 0 (dataset confirmed complete, no imputation needed)
+[Stage 1] Exact duplicate rows found & removed: 1332 (6.66% of raw data)
+[Stage 1] Shape after Stage 1: (20000, 17) -> (18668, 17)
+[Stage 2] Total values capped across all features: 10209
+[Stage 2] Row count unchanged (no deletion): 18668 -> 18668
+[Stage 2] Shape after Stage 2: (18668, 17)
+[Stage 3] Engineered features added: ['box_area', 'aspect_ratio', 'pixel_density', 'edge_ratio', 'total_variance']
+[Stage 3] Shape after Stage 3: (18668, 22) (16 original + 5 engineered numeric columns)
+[Stage 3] Ratio sanity check (all bounded, no divide-by-zero blow-up): max aspect_ratio=5.00, max pixel_density=1.00, max edge_ratio=7.00
+[Stage 4] Target encoded: 26 classes (A..Z) -> integers 0..25
+[Stage 4] Shape after Stage 4: (18668, 23)
+[Stage 5] Scaled 21 numeric columns with StandardScaler.
+[Stage 5] Post-scaling mean (should be ~0): -0.000000
+[Stage 5] Post-scaling std  (should be ~1): 1.000027
+[Stage 5] Shape after Stage 5: (18668, 23)
+[Stage 6] Top 10 features by ANOVA F-score:
+edge_ratio        1798.5
+x2ybr             1085.1
+y-bar             1038.9
+xegvy              936.1
+x-ege              839.6
+xy2br              819.8
+y2bar              691.4
+total_variance     604.0
+y-ege              557.5
+x2bar              418.8
+
+[Stage 6] PCA: 21 scaled features -> 13 components explaining 95.2% of variance
+
+[Save] Final processed dataset saved to 'data/external/processed_letter_recognition.csv' with shape (18668, 23)

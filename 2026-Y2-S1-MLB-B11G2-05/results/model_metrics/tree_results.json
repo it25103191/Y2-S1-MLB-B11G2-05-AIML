@@ -1,0 +1,21 @@
+{
+  "member": "Thrishodaran V. (IT25102227)",
+  "model_family": "Decision Tree (Classification)",
+  "accuracy": 0.8604713444027852,
+  "precision_macro": 0.8615381336554175,
+  "recall_macro": 0.8606248105287586,
+  "f1_macro": 0.8606842914909213,
+  "best_params": {
+    "criterion": "entropy",
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2
+  },
+  "cv_best_score": 0.8372840498192046,
+  "cv5_mean": 0.8518140340672498,
+  "cv5_std": 0.006607801952738593,
+  "baseline_test_accuracy": 0.8583288698446706,
+  "shallow_test_accuracy": 0.3824317086234601,
+  "tree_depth": 20,
+  "tree_leaves": 1733
+}

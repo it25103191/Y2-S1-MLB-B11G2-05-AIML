@@ -1,0 +1,16 @@
+{
+  "member": "Wijayagunasekara L.A.V.D.S. (IT25100064)",
+  "model_family": "Logistic Regression (Classification)",
+  "accuracy": 0.7731655061596143,
+  "precision_macro": 0.7772765614644442,
+  "recall_macro": 0.7719568175354059,
+  "f1_macro": 0.7729728920988118,
+  "best_params": {
+    "C": 1,
+    "max_iter": 1000,
+    "penalty": "l1",
+    "solver": "saga"
+  },
+  "cv_best_score": 0.7647649658497389,
+  "baseline_test_accuracy": 0.7688805570433851
+}

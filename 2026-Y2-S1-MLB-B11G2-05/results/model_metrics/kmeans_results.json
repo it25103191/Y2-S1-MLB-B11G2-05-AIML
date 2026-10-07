@@ -1,0 +1,12 @@
+{
+  "member": "Almeida K.K.O. (IT25103191)",
+  "model_family": "K-Means (Clustering)",
+  "k_chosen": 26,
+  "inertia": 154482.73576874565,
+  "ari_vs_true_letters": 0.1506950817966155,
+  "nmi_vs_true_letters": 0.3637691561241344,
+  "silhouette_preferred_k": 20,
+  "silhouette_at_preferred_k": 0.14111899277698717,
+  "ari_at_silhouette_k": 0.14343806484361993,
+  "nmi_at_silhouette_k": 0.3480891551813888
+}

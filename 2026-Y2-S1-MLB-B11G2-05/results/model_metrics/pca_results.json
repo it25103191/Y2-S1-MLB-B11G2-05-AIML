@@ -1,0 +1,18 @@
+{
+  "member": "Danishiyan G.J. (IT25101436)",
+  "model_family": "PCA (Dimensionality Reduction)",
+  "n_components_chosen": 13,
+  "n_components_total": 21,
+  "variance_explained": 0.9517907240256424,
+  "knn_accuracy_full_features": 0.9177825388323514,
+  "knn_accuracy_pca_features": 0.9033208355650777,
+  "accuracy_cost_pct_points": 1.4461703267273696,
+  "dimensionality_reduction_pct": 38.1,
+  "components_for_90pct_variance": 11,
+  "knn_precision_macro_pca_features": 0.906410025715389,
+  "knn_recall_macro_pca_features": 0.9027786663657756,
+  "knn_f1_macro_pca_features": 0.9037257383520696,
+  "knn_precision_macro_full_features": 0.9203307330133376,
+  "knn_recall_macro_full_features": 0.9172898421288884,
+  "knn_f1_macro_full_features": 0.9180948874402873
+}

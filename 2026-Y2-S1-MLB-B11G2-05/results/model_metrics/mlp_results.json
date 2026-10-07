@@ -1,0 +1,19 @@
+{
+  "member": "Muhunthan R. (IT25102618)",
+  "model_family": "Multi-Layer Perceptron (Deep Learning)",
+  "accuracy": 0.9467059453668988,
+  "precision_macro": 0.9475759650280513,
+  "recall_macro": 0.9456802793169943,
+  "f1_macro": 0.9463563269116233,
+  "best_params": {
+    "activation": "tanh",
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+      128,
+      64
+    ]
+  },
+  "cv_best_score": 0.9323690906655954,
+  "baseline_test_accuracy": 0.9164434922335297,
+  "training_iterations": 90
+}
